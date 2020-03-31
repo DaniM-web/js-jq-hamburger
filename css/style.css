@@ -26,13 +26,13 @@ header {
     margin-top: 15px;
 }
 .header-right > a {
-    display: block;
+    display: none;
     float: right;
     padding-right: 30px;
 
 }
 .header-right ul {
-  display: none;
+  display: block;
     list-style: none;
     height: 100%;
     text-align: right;
@@ -94,7 +94,7 @@ header {
         display: none;
     }
     .header-right > a {
-        display: none;
+        display: block;
         height: 100%;
         line-height: 70px;
         float: right;
